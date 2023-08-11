@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: hsl(194, 66%, 49%);
+  overflow: hidden;
+  font-family: Inconsolata, sans-serif;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: -75px;
+  background: red;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+}
+
+#sun {
+  background: #ffff77;
+  box-shadow: 0 0 50px #ffff77;
+}
+
+#moon {
+  background: #222;
+  left: 50%;
+}
+
+#perc {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  margin-top: 110px;
+  color: white;
+  pointer-events: none;
+}
